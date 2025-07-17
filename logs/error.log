@@ -1,0 +1,69 @@
+[17-Jul-2025 10:08:19 Asia/Riyadh] Database connection failed: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
+[17-Jul-2025 10:08:19 Asia/Riyadh] PHP Fatal error:  Uncaught Exception: فشل الاتصال بقاعدة البيانات in /home/ubuntu/attendance_system_final/config/database.php:55
+Stack trace:
+#0 /home/ubuntu/attendance_system_final/config/database.php(64): Database->__construct()
+#1 /home/ubuntu/attendance_system_final/test_system.php(26): Database::getInstance()
+#2 /home/ubuntu/attendance_system_final/test_system.php(366): SystemTester->__construct()
+#3 {main}
+  thrown in /home/ubuntu/attendance_system_final/config/database.php on line 55
+[17-Jul-2025 10:12:02 Asia/Riyadh] Database connection error: could not find driver
+[17-Jul-2025 10:12:02 Asia/Riyadh] PHP Warning:  Undefined variable $conn in /home/ubuntu/attendance_system_final/test_sqlite.php on line 62
+[17-Jul-2025 10:12:02 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/ubuntu/attendance_system_final/test_sqlite.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/attendance_system_final/test_sqlite.php on line 62
+[17-Jul-2025 10:13:33 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::prepare() in /home/ubuntu/attendance_system_final/api/dashboard.php:67
+Stack trace:
+#0 /home/ubuntu/attendance_system_final/api/dashboard.php(27): getDashboardOverview()
+#1 {main}
+  thrown in /home/ubuntu/attendance_system_final/api/dashboard.php on line 67
+[17-Jul-2025 10:13:33 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::prepare() in /home/ubuntu/attendance_system_final/api/dashboard.php:603
+Stack trace:
+#0 /home/ubuntu/attendance_system_final/api/dashboard.php(43): getDashboardAlerts()
+#1 {main}
+  thrown in /home/ubuntu/attendance_system_final/api/dashboard.php on line 603
+[17-Jul-2025 10:14:03 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::prepare() in /home/ubuntu/attendance_system_final/api/dashboard.php:67
+Stack trace:
+#0 /home/ubuntu/attendance_system_final/api/dashboard.php(27): getDashboardOverview()
+#1 {main}
+  thrown in /home/ubuntu/attendance_system_final/api/dashboard.php on line 67
+[17-Jul-2025 10:14:33 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::prepare() in /home/ubuntu/attendance_system_final/api/dashboard.php:67
+Stack trace:
+#0 /home/ubuntu/attendance_system_final/api/dashboard.php(27): getDashboardOverview()
+#1 {main}
+  thrown in /home/ubuntu/attendance_system_final/api/dashboard.php on line 67
+[17-Jul-2025 10:14:33 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::prepare() in /home/ubuntu/attendance_system_final/api/dashboard.php:603
+Stack trace:
+#0 /home/ubuntu/attendance_system_final/api/dashboard.php(43): getDashboardAlerts()
+#1 {main}
+  thrown in /home/ubuntu/attendance_system_final/api/dashboard.php on line 603
+[17-Jul-2025 10:14:44 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::fetchOne() in /home/ubuntu/attendance_system_final/api/students.php:128
+Stack trace:
+#0 /home/ubuntu/attendance_system_final/api/students.php(47): getStudentsList()
+#1 /home/ubuntu/attendance_system_final/api/students.php(19): handleGet()
+#2 {main}
+  thrown in /home/ubuntu/attendance_system_final/api/students.php on line 128
+[17-Jul-2025 10:46:35 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:46:35 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:47:05 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:47:35 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:47:38 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:48:05 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:48:05 Asia/Riyadh] Database connection error in dashboard.php: فشل الاتصال بقاعدة البيانات: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:48:09 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:48:09 Asia/Riyadh] Database connection error in dashboard.php: فشل الاتصال بقاعدة البيانات: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:48:09 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:48:09 Asia/Riyadh] Database connection error in dashboard.php: فشل الاتصال بقاعدة البيانات: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:48:33 Asia/Riyadh] Database connection failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''+03:00'' at line 1
+[17-Jul-2025 10:52:12 Asia/Riyadh] Database connection failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Asia' in 'field list'
+[17-Jul-2025 10:52:12 Asia/Riyadh] Database connection error in dashboard.php: فشل الاتصال بقاعدة البيانات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Asia' in 'field list'
+[17-Jul-2025 10:52:12 Asia/Riyadh] Database connection failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Asia' in 'field list'
+[17-Jul-2025 10:52:12 Asia/Riyadh] Database connection error in dashboard.php: فشل الاتصال بقاعدة البيانات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Asia' in 'field list'
+[17-Jul-2025 10:52:21 Asia/Riyadh] Database connection failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Asia' in 'field list'
+[17-Jul-2025 10:55:55 Asia/Riyadh] Database connection failed: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Asia/Riyadh'
+[17-Jul-2025 10:55:55 Asia/Riyadh] Database connection error in dashboard.php: فشل الاتصال بقاعدة البيانات: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Asia/Riyadh'
+[17-Jul-2025 10:55:55 Asia/Riyadh] Database connection failed: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Asia/Riyadh'
+[17-Jul-2025 10:55:55 Asia/Riyadh] Database connection error in dashboard.php: فشل الاتصال بقاعدة البيانات: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Asia/Riyadh'
+[17-Jul-2025 10:56:25 Asia/Riyadh] Database connection failed: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Asia/Riyadh'
+[17-Jul-2025 10:56:25 Asia/Riyadh] Database connection error in dashboard.php: فشل الاتصال بقاعدة البيانات: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Asia/Riyadh'
+[17-Jul-2025 10:57:00 Asia/Riyadh] Students API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.status' in 'where clause'

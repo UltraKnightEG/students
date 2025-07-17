@@ -1,0 +1,4 @@
+[Thu Jul 17 03:57:19 2025] PHP 8.1.2-1ubuntu2.21 Development Server (http://0.0.0.0:8080) started
+[Thu Jul 17 03:57:24 2025] 127.0.0.1:46518 Accepted
+[Thu Jul 17 03:57:24 2025] 127.0.0.1:46518 [404]: POST / - No such file or directory
+[Thu Jul 17 03:57:24 2025] 127.0.0.1:46518 Closing
